@@ -26,6 +26,6 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: 'amanuelztestwwwRegistry'
+        containerRegistry: 'testwww-rg'
         tags: |
           $(tag)
